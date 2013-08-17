@@ -1,1 +1,48 @@
-{}
+{
+  "symbols": {
+    "name": "8号线",
+    "full": "广州地铁8号线",
+    "alias": "琶洲线"
+  },
+  "status": "operation",
+  "fleet": {
+    "size": 6,
+    "type": "A"
+  },
+  "speed": {
+    "max": 80
+  },
+  "block": {
+    "vendor": "SIEMENS",
+    "type": "FTGS"
+  },
+  "train": {
+    "types": ["A2"]
+  },
+  "electrify": {
+    "forms": ["overhead_track"],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": ["tunnel"],
+  "routes": [
+    [
+      "凤凰新村",
+      "沙园",
+      "宝岗大道",
+      "昌岗",
+      "晓港",
+      "中大",
+      "鹭江",
+      "客村",
+      "赤岗",
+      "磨碟沙",
+      "新港东",
+      "琶洲",
+      "万胜围"
+    ]
+  ],
+  "depots": [
+    "赤沙车辆段"
+  ]
+}
