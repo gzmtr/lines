@@ -24,6 +24,7 @@
     "type": "DC",
     "voltage": 1500
   },
+  "forms": ["tunnel", "viaduct"],
   "routes": [
     [
       "广州东站",
