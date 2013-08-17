@@ -19,6 +19,11 @@
   "train": {
     "types": ["B1", "B2", "B4"]
   },
+  "electrify": {
+    "forms": ["overhead_track"],
+    "type": "DC",
+    "voltage": 1500
+  },
   "routes": [
     [
       "番禺广场",
