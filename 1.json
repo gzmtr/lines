@@ -5,6 +5,7 @@
     "alias": "中山路线",
     "color": ["RGB", 243, 207, 69]
   },
+  "status": "operation",
   "fleet": {
     "size": 6,
     "type": "A"
