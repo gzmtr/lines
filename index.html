@@ -3,20 +3,163 @@
   <head>
     <meta charset="utf-8">
     <title>Lines data of Guangzhou Metro</title>
-    
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300" type="text/css">
-    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
-    
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu+Mono" type="text/css">
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
     <style>
-    body {
-      font: 16px / 24px 'Roboto', sans-serif;
-    }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: inherit;
+        text-decoration: inherit;
+      }
+
+      body {
+        background: #111;
+        font: 16px / 24px 'Ubuntu Mono', sans-serif;
+        color: #CCC;
+      }
+
+      h1 {
+        display: block;
+        color: #FC0;
+        margin-bottom: 24px;
+      }
+
+      h1::after {
+        display: block;
+        content: '===================='
+      }
+
+      h2 {
+        display: block;
+        color: #0A3;
+        margin-top: 48px;
+        margin-bottom: 24px;
+      }
+
+      h2::before {
+        content: '## '
+      }
+
+      h3 {
+        display: block;
+        color: #0A3;
+        margin-bottom: 24px;
+      }
+
+      h3::before {
+        content: '### '
+      }
+
+      h3 {
+        display: block;
+        color: #0A3;
+        margin-bottom: 24px;
+      }
+
+      h3::before {
+        content: '#### '
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+
+      a {
+        color: #07A;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      strong {
+        color: #FFF;
+      }
+
+      pre {
+        color: #C7C;
+      }
+
+      pre::before {
+        display: block;
+        content: '```';
+        margin-top: 24px;
+      }
+
+      pre::after {
+        display: block;
+        content: '```';
+        margin-bottom: 24px;
+      }
+
+      body > header {
+        width: 200px;
+        position: fixed;
+        left: 50px;
+        top: 50px;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      ul > li {
+        color: #FC0;
+        cursor: pointer;
+      }
+
+      ul > li::before {
+        content: '- '
+      }
+
+      body > article {
+        margin: 50px 50px 50px 300px;
+      }
     </style>
-    
+
     <script>
+      $(function () {
+        $('#lines').on('click', 'li', function () {
+          $('#main').empty()
+
+          var url = 'https://raw.github.com/gzmtr/lines/master/' + $(this).data('line') + '.json'
+          $.get(url, function (data) {
+            var json = JSON.parse(data)
+            $('#main').html(
+              '<h1>' + json.symbols.full + '</h1>'
+            + '<h2>引用地址</h2>'
+            + '<pre><code>' + url + '</code></pre>'
+            + '<h2>数据</h2>'
+            + '<pre><code>' + data + '</code></pre>'
+            )
+          }, 'text')
+        })
+      })
     </script>
-    
+
   </head>
   <body>
+    <header>
+      <nav>
+        <ul id="lines">
+          <li data-line="1">1号线</li>
+          <li data-line="2">2号线</li>
+          <li data-line="3">3号线</li>
+          <li data-line="4">4号线</li>
+          <li data-line="5">5号线</li>
+          <li data-line="6">6号线</li>
+          <li data-line="7">7号线</li>
+          <li data-line="8">8号线</li>
+          <li data-line="9">9号线</li>
+        </ul>
+      </nav>
+    </header>
+    <article id="main"></article>
   </body>
 </html>
