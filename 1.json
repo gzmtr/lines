@@ -20,7 +20,7 @@
     "types": ["A1", "A2", "A3"]
   },
   "electrify": {
-    "form": "overhead",
+    "forms": ["overhead_cable", "overhead_track"],
     "type": "DC",
     "voltage": 1500
   },
