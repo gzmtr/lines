@@ -4,6 +4,7 @@
     "full": "广州地铁5号线",
     "alias": "环市路线"
   },
+  "status": "operation",
   "fleet": {
     "size": 6,
     "type": "L"
@@ -16,7 +17,7 @@
     "type": "CBTC"
   },
   "train": {
-    "types": ["L2", "L3"],
+    "types": ["L2", "L4"],
     "motor": "liner"
   },
   "electrify": {
