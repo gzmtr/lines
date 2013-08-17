@@ -19,6 +19,11 @@
   "train": {
     "types": ["A1", "A2", "A3"]
   },
+  "electrify": {
+    "form": "overhead",
+    "type": "DC",
+    "voltage": 1500
+  },
   "routes": [
     [
       "广州东站",
