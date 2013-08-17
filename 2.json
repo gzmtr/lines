@@ -5,6 +5,7 @@
     "alias": "嘉禾线",
     "color": ["RGB", 0, 102, 161]
   },
+  "status": "operation",
   "fleet": {
     "size": 6,
     "type": "A"
