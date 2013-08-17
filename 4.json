@@ -2,8 +2,7 @@
   "symbols": {
     "name": "4号线",
     "full": "广州地铁4号线",
-    "alias": "南沙线",
-    "color": undefined
+    "alias": "南沙线"
   },
   "fleet": {
     "size": 4,
@@ -17,14 +16,34 @@
     "type": "CBTC"
   },
   "train": {
-    "types": ["L1"]
+    "types": ["L1"],
+    "motor": "liner"
   },
   "electrify": {
     "forms": ["track_single"],
     "type": "DC",
     "voltage": 1500
   },
+  "forms": ["tunnel", "viaduct"],
   "routes": [
+    [
+      "黄村",
+      "车陂",
+      "车陂南",
+      "万胜围",
+      "官洲",
+      "大学城北",
+      "大学城南",
+      "新造",
+      "石碁",
+      "海傍",
+      "低涌",
+      "东涌",
+      "黄阁汽车城",
+      "黄阁",
+      "蕉门",
+      "金洲"
+    ]
   ],
   "depots": [
     "新造车辆段"
