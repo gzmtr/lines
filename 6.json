@@ -1,1 +1,56 @@
-{ status: "constructing" }
+{
+  "symbols": {
+    "name": "6号线",
+    "full": "广州地铁6号线",
+    "alias": "萝岗线"
+  },
+  "status": "constructing",
+  "fleet": {
+    "size": 4,
+    "type": "L"
+  },
+  "speed": {
+    "max": 90
+  },
+  "block": {
+    "vendor": "ALSTOM",
+    "type": "CBTC"
+  },
+  "train": {
+    "types": ["L3"],
+    "motor": "liner"
+  },
+  "electrify": {
+    "forms": ["track_single"],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": ["tunnel", "viaduct"],
+  "routes": [
+    [
+      "长湴",
+      "天河客运站",
+      "燕塘",
+      "天平架",
+      "沙河顶",
+      "黄花岗",
+      "区庄",
+      "东山口",
+      "东湖",
+      "团一大广场",
+      "北京路",
+      "海珠广场",
+      "文化公园",
+      "黄沙",
+      "如意坊",
+      "坦尾",
+      "河沙",
+      "沙贝",
+      "横沙",
+      "浔峰岗"
+    ]
+  ],
+  "depots": [
+    "浔峰岗停车场"
+  ]
+}
