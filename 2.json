@@ -19,6 +19,11 @@
   "train": {
     "types": ["A4", "A5"]
   },
+  "electrify": {
+    "forms": ["overhead_track"],
+    "type": "DC",
+    "voltage": 1500
+  },
   "routes": [
     [
       "嘉禾望岗",
