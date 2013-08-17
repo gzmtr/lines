@@ -1,1 +1,29 @@
-{}
+{
+  "symbols": {
+    "name": "9号线",
+    "full": "广州地铁9号线",
+    "alias": "花都线",
+  },
+  "status": "construction",
+  "fleet": {
+    "size": 6,
+    "type": "B"
+  },
+  "speed": {
+    "max": 120
+  },
+  "block": {
+    "vendor": "Thales",
+    "type": "CBTC"
+  },
+  "electrify": {
+    "forms": ["overhead_track"],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": ["tunnel"],
+  "routes": [],
+  "depots": [
+    "岐山车辆段"
+  ]
+}
