@@ -1,0 +1,22 @@
+{
+  "symbols": {
+    "name": "7号线",
+    "full": "广州地铁7号线",
+    "alias": "大学城线"
+  },
+  "status": "planning",
+  "fleet": {
+    "size": 6,
+    "type": "B"
+  },
+  "electrify": {
+    "forms": ["overhead_track"],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": ["tunnel"],
+  "routes": [],
+  "depots": [
+    "大洲停车场"
+  ]
+}
