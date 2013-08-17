@@ -5,6 +5,7 @@
     "alias": "南北快线",
     "color": ["RGB", 233, 153, 74]
   },
+  "status": "operation",
   "fleet": {
     "size": 6,
     "type": "B"
