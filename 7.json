@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "7号线",
+    "short": "7",
     "full": "广州地铁7号线",
     "alias": "大学城线",
     "color": [ "RGB", 224, 36, 154 ]

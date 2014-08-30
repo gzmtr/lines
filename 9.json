@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "9号线",
+    "short": "9",
     "full": "广州地铁9号线",
     "alias": "花都线",
     "color": [ "RGB", 162, 80, 34 ]

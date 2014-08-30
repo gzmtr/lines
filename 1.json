@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "1号线",
+    "short": "1",
     "full": "广州地铁1号线",
     "alias": "中山路线",
     "color": [ "RGB", 243, 207, 69 ]

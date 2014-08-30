@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "3号线",
+    "short": "3",
     "full": "广州地铁3号线",
     "alias": "南北快线",
     "color": [ "RGB", 233, 153, 74 ]
