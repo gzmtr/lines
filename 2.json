@@ -6,6 +6,14 @@
     "color": [ "RGB", 0, 102, 161 ]
   },
   "status": "operation",
+  "url": "https://github.com/gzmtr/lines/raw/v1/2.json",
+  "interchanges": [
+    "https://github.com/gzmtr/lines/raw/v1/1.json",
+    "https://github.com/gzmtr/lines/raw/v1/3.json",
+    "https://github.com/gzmtr/lines/raw/v1/5.json",
+    "https://github.com/gzmtr/lines/raw/v1/6.json",
+    "https://github.com/gzmtr/lines/raw/v1/8.json"
+  ],
   "fleet": {
     "size": 6,
     "type": "A"

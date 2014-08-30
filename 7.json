@@ -6,6 +6,7 @@
     "color": [ "RGB", 224, 36, 154 ]
   },
   "status": "construction",
+  "url": "https://github.com/gzmtr/lines/raw/v1/7.json",
   "fleet": {
     "size": 6,
     "type": "B"
