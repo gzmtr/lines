@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "4号线",
+    "short": "4",
     "full": "广州地铁4号线",
     "alias": "南沙线",
     "color": [ "RGB", 0, 133, 66 ]

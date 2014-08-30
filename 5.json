@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "5号线",
+    "short": "5",
     "full": "广州地铁5号线",
     "alias": "环市路线",
     "color": [ "RGB", 195, 0, 69 ]

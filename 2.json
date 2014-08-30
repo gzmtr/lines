@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "2号线",
+    "short": "2",
     "full": "广州地铁2号线",
     "alias": "嘉禾线",
     "color": [ "RGB", 0, 102, 161 ]

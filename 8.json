@@ -1,6 +1,7 @@
 {
   "symbols": {
     "name": "8号线",
+    "short": "8",
     "full": "广州地铁8号线",
     "alias": "琶洲线",
     "color": [ "RGB", 0, 139, 149 ]
