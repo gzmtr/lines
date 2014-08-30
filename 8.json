@@ -17,14 +17,14 @@
     "type": "FTGS"
   },
   "train": {
-    "types": ["A2"]
+    "types": [ "A2", "A5" ]
   },
   "electrify": {
-    "forms": ["overhead_track"],
+    "forms": [ "overhead_track" ],
     "type": "DC",
     "voltage": 1500
   },
-  "forms": ["tunnel"],
+  "forms": [ "tunnel" ],
   "routes": [
     [
       "凤凰新村",

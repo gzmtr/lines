@@ -17,11 +17,11 @@
     "type": "CBTC"
   },
   "electrify": {
-    "forms": ["overhead_track"],
+    "forms": [ "overhead_track" ],
     "type": "DC",
     "voltage": 1500
   },
-  "forms": ["tunnel"],
+  "forms": [ "tunnel" ],
   "routes": [],
   "depots": [
     "岐山车辆段"

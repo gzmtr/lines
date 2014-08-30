@@ -3,7 +3,7 @@
     "name": "3号线",
     "full": "广州地铁3号线",
     "alias": "南北快线",
-    "color": ["RGB", 233, 153, 74]
+    "color": [ "RGB", 233, 153, 74 ]
   },
   "status": "operation",
   "fleet": {
@@ -18,14 +18,14 @@
     "type": "CBTC"
   },
   "train": {
-    "types": ["B1", "B2", "B4"]
+    "types": [ "B1", "B2", "B4" ]
   },
   "electrify": {
-    "forms": ["overhead_track"],
+    "forms": [ "overhead_track" ],
     "type": "DC",
     "voltage": 1500
   },
-  "forms": ["tunnel"],
+  "forms": [ "tunnel" ],
   "routes": [
     [
       "番禺广场",

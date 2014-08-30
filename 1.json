@@ -3,7 +3,7 @@
     "name": "1号线",
     "full": "广州地铁1号线",
     "alias": "中山路线",
-    "color": ["RGB", 243, 207, 69]
+    "color": [ "RGB", 243, 207, 69 ]
   },
   "status": "operation",
   "fleet": {
@@ -18,14 +18,14 @@
     "type": "FTGS"
   },
   "train": {
-    "types": ["A1", "A2", "A3"]
+    "types": [ "A1", "A2", "A3" ]
   },
   "electrify": {
-    "forms": ["overhead_cable", "overhead_track"],
+    "forms": [ "overhead_cable", "overhead_track" ],
     "type": "DC",
     "voltage": 1500
   },
-  "forms": ["tunnel", "ground"],
+  "forms": [ "tunnel", "ground" ],
   "routes": [
     [
       "广州东站",

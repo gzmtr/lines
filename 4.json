@@ -17,15 +17,15 @@
     "type": "CBTC"
   },
   "train": {
-    "types": ["L1"],
+    "types": [ "L1" ],
     "motor": "liner"
   },
   "electrify": {
-    "forms": ["track_single"],
+    "forms": [ "track_single" ],
     "type": "DC",
     "voltage": 1500
   },
-  "forms": ["tunnel", "viaduct"],
+  "forms": [ "tunnel", "viaduct" ],
   "routes": [
     [
       "黄村",
