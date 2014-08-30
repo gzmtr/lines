@@ -6,6 +6,7 @@
     "color": [ "RGB", 226, 194, 199 ]
   },
   "status": "planning",
+  "url": "https://github.com/gzmtr/lines/raw/v1/12.json",
   "electrify": {
     "forms": [ "overhead_track" ],
     "type": "DC",

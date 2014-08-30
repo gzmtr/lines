@@ -5,6 +5,7 @@
     "alias": "东部新城快线"
   },
   "status": "construction",
+  "url": "https://github.com/gzmtr/lines/raw/v1/21.json",
   "fleet": {
     "size": 6,
     "type": "B"
