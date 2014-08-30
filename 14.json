@@ -1,0 +1,28 @@
+{
+  "symbols": {
+    "name": "14号线",
+    "full": "广州地铁14号线",
+    "alias": "从化线",
+    "color": [ "RGB", 218, 227, 234 ]
+  },
+  "status": "construction",
+  "fleet": {
+    "size": 6,
+    "type": "B"
+  },
+  "speed": {
+    "max": 120
+  },
+  "electrify": {
+    "forms": [ "overhead_cable", "overhead_track" ],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": [ "tunnel", "viaduct" ],
+  "routes": [],
+  "depots": [
+    "邓村车辆段",
+    "镇龙车辆段",
+    "东平停车场"
+  ]
+}

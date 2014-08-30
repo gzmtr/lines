@@ -1,11 +1,11 @@
 {
   "symbols": {
-    "name": "9号线",
-    "full": "广州地铁9号线",
-    "alias": "花都线",
-    "color": [ "RGB", 162, 80, 34 ]
+    "name": "10号线",
+    "full": "广州地铁10号线",
+    "alias": "东沙线",
+    "color": [ "RGB", 112, 164, 137 ]
   },
-  "status": "construction",
+  "status": "planning",
   "fleet": {
     "size": 6,
     "type": "B"
@@ -24,7 +24,5 @@
   },
   "forms": [ "tunnel" ],
   "routes": [],
-  "depots": [
-    "岐山车辆段"
-  ]
+  "depots": []
 }

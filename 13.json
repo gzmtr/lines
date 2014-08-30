@@ -1,0 +1,26 @@
+{
+  "symbols": {
+    "name": "13号线",
+    "full": "广州地铁13号线",
+    "alias": "东西快线",
+    "color": [ "RGB", 130, 60, 71 ]
+  },
+  "status": "planning",
+  "fleet": {
+    "size": 8,
+    "type": "A"
+  },
+  "speed": {
+    "max": 100
+  },
+  "electrify": {
+    "forms": [ "overhead_track" ],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": [ "tunnel" ],
+  "routes": [],
+  "depots": [
+    "新塘车辆段"
+  ]
+}

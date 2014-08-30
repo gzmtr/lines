@@ -1,0 +1,17 @@
+{
+  "symbols": {
+    "name": "12号线",
+    "full": "广州地铁12号线",
+    "alias": "二沙岛线",
+    "color": [ "RGB", 226, 194, 199 ]
+  },
+  "status": "planning",
+  "electrify": {
+    "forms": [ "overhead_track" ],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": [ "tunnel" ],
+  "routes": [],
+  "depots": []
+}
