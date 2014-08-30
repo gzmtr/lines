@@ -1,0 +1,27 @@
+{
+  "symbols": {
+    "name": "21号线",
+    "full": "广州地铁21号线",
+    "alias": "东部新城快线"
+  },
+  "status": "construction",
+  "fleet": {
+    "size": 6,
+    "type": "B"
+  },
+  "speed": {
+    "max": 120
+  },
+  "electrify": {
+    "forms": [ "overhead_cable", "overhead_track" ],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": [ "tunnel", "viaduct" ],
+  "routes": [],
+  "depots": [
+    "镇龙车辆段",
+    "水西停车场",
+    "象岭停车场"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "symbols": {
+    "name": "11号线",
+    "full": "广州地铁11号线",
+    "alias": "市区环线",
+    "color": [ "RGB", 206, 142, 0 ]
+  },
+  "status": "planning",
+  "fleet": {
+    "size": 8,
+    "type": "A"
+  },
+  "electrify": {
+    "forms": [ "overhead_track" ],
+    "type": "DC",
+    "voltage": 1500
+  },
+  "forms": [ "tunnel" ],
+  "routes": [],
+  "depots": [
+    "赤沙车辆段"
+  ]
+}

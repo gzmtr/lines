@@ -2,7 +2,8 @@
   "symbols": {
     "name": "6号线",
     "full": "广州地铁6号线",
-    "alias": "萝岗线"
+    "alias": "萝岗线",
+    "color": [ "RGB", 119, 32, 89 ]
   },
   "status": "operation",
   "fleet": {
